@@ -5,7 +5,7 @@ import Home from './pages';
 const App: React.FC = () => {
   return (
     <>
-      <StatusBar backgroundColor="#2da0bd" />
+      <StatusBar backgroundColor="#39a900" />
       <Home />
     </>
   );

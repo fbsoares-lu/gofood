@@ -4,6 +4,7 @@ import {Image} from 'react-native';
 import logoImg from '../assets/logo.png';
 
 import AddressSearchBar from '../components/AddresSearchBar';
+import Filter from '../components/Filter';
 
 import {Container} from './styles';
 
@@ -12,6 +13,7 @@ const Home: React.FC = () => {
     <Container>
       <Image source={logoImg} />
       <AddressSearchBar />
+      <Filter />
     </Container>
   );
 };
