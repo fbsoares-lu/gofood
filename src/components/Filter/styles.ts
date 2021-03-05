@@ -11,12 +11,12 @@ export const Container = styled.View`
 
 export const Content = styled.View`
   font-size: 14px;
-  color: #2b2b2b;
-  margin-left: 16px;
-  background: #39a900;
+  /* color: #2b2b2b;
+  margin-left: 16px; */
+  border-color: #bebebe;
+  border-width: 1px;
   border-radius: 10px;
 
-  width: 109px;
   height: 30px;
 
   align-items: center;
@@ -28,5 +28,5 @@ export const Content = styled.View`
 export const ContainerText = styled.Text`
   margin-left: 8px;
   font-size: 12px;
-  color: #ffffff;
+  color: #686868;
 `;
