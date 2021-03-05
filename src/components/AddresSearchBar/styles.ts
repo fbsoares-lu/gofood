@@ -6,7 +6,7 @@ export const Container = styled.View`
   background: #f2f2f2;
   border-radius: 10px;
 
-  width: 100%;
+  width: 80%;
   align-items: center;
   flex-direction: row;
 `;
@@ -14,8 +14,9 @@ export const Container = styled.View`
 export const ContainerText = styled.TextInput`
   flex: 1;
   font-size: 14px;
+
   color: #2b2b2b;
-  margin-left: 16px;
+  margin-left: 10px;
 
   margin-right: 30px;
 `;

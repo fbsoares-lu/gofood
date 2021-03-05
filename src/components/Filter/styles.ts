@@ -9,10 +9,16 @@ export const Container = styled.View`
   flex-direction: row;
 `;
 
-export const Content = styled.View`
+export const ContentTab = styled.ScrollView.attrs({
+  horizontal: true,
+  contentContainerStyle: {paddingLeft: 40, paddingRight: 10},
+  showsHorizontalScrollIndicator: false,
+})``;
+
+export const ContentFirst = styled.TouchableOpacity`
   font-size: 14px;
-  /* color: #2b2b2b;
-  margin-left: 16px; */
+  color: #2b2b2b;
+
   border-color: #bebebe;
   border-width: 1px;
   border-radius: 10px;
@@ -25,8 +31,27 @@ export const Content = styled.View`
   padding: 10px;
 `;
 
+export const Content = styled.TouchableOpacity`
+  font-size: 14px;
+  color: #2b2b2b;
+
+  border-color: #bebebe;
+  border-width: 1px;
+  border-radius: 10px;
+
+  height: 30px;
+
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+
+  padding: 10px;
+
+  margin-left: 8px;
+`;
+
 export const ContainerText = styled.Text`
   margin-left: 8px;
-  font-size: 12px;
+  font-size: 14px;
   color: #686868;
 `;
