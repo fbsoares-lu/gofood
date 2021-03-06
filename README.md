@@ -23,13 +23,11 @@ The following tools were used in the project:
   - [React Navigation](https://reactnavigation.org/)
   - [Vector Icons](https://www.npmjs.com/package/react-native-vector-icons)
 
-## Install
+## Getting started
 
 Before than started, you will need to install the following tools on your machine:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
 In addition it is essential to have a text editor to work with the code like [VSCode](https://code.visualstudio.com/).
-
-### Getting started
 
 ```bash
 # clone this repository
