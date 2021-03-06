@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-    <img src="./logo.png" />
+    <img src="./src/assets/logo.png" />
   </br>
 </h1>
 
