@@ -4,8 +4,7 @@
   </br>
 </h1>
 
-A aplicação GoFood abrange os serviços de entrega online.<br/>
-A principal função dessa aplicação é garantir que um usuário possa realizar um pedido por vez a um determinado restaurante ou estabelecimento. Nessa aplicação os estabelecimentos podem manter o contato com o cliente solicitante do pedido.
+A aplicação GoFood abrange serviços de entrega online. Essa aplicaçãp garante que um usuário possa realizar um pedido por vez a um determinado restaurante ou estabelecimento, no qual estabelecimentos podem manter o contato com o cliente solicitante do pedido.
 
 <p align="center">
   <a href="http://makeapullrequest.com">
