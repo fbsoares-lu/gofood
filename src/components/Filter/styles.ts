@@ -11,7 +11,7 @@ export const Container = styled.View`
 
 export const ContentTab = styled.ScrollView.attrs({
   horizontal: true,
-  contentContainerStyle: {paddingLeft: 40, paddingRight: 10},
+  contentContainerStyle: {paddingLeft: 10, paddingRight: 10},
   showsHorizontalScrollIndicator: false,
 })``;
 

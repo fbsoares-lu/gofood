@@ -3,6 +3,7 @@ import styled from 'styled-components/native';
 export const Container = styled.View`
   margin-top: 30px;
   width: 100%;
+  height: 187px;
 `;
 
 export const Content = styled.TouchableOpacity`
@@ -21,7 +22,7 @@ export const PaginationText = styled.Text`
   line-height: 30px;
 `;
 
-export const PaginationButton = styled.View`
+export const PaginationButton = styled.TouchableOpacity`
   height: 25px;
   background: #39a900;
   width: 100px;

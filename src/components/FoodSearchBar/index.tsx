@@ -20,7 +20,7 @@ const FoodSearchBar: React.FC = () => {
       <ContentTab>
         <ContentFirst>
           <Image source={vegFood} />
-          <ContainerText>Vegetariano</ContainerText>
+          <ContainerText>Vegetariana</ContainerText>
         </ContentFirst>
 
         <Content>
