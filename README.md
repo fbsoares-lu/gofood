@@ -15,6 +15,11 @@ A aplicação GoFood abrange serviços de entrega online. Essa aplicaçãp garan
   </a>
 </p>
 
+  <br>
+    <img src="./src/assets/app.gif"/>
+  </br>
+
+
 ## Tools
 The following tools were used in the project:
 
