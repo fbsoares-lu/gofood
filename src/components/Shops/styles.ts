@@ -37,6 +37,16 @@ export const ShopGrid = styled.View`
   border-radius: 10px;
 `;
 
+export const ShopGridOthers = styled.View`
+  margin-top: 8px;
+  border: 1px solid #b2b2b2;
+  width: 95%;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px;
+  border-radius: 10px;
+`;
+
 export const ShopImage = styled.Image`
   border-radius: 50px;
   margin-left: 10px;
