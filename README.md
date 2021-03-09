@@ -16,7 +16,7 @@ A aplicação GoFood abrange serviços de entrega online. Essa aplicaçãp garan
 </p>
 
   <br>
-    <img src="./src/assets/app.gif"/>
+    <img src="./src/assets/videogofood.gif"/>
   </br>
 
 

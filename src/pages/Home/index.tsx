@@ -8,6 +8,7 @@ import Filter from '../../components/Filter';
 import FoodSearchBar from '../../components/FoodSearchBar';
 import Pagination from '../../components/Pagination';
 import Shops from '../../components/Shops';
+import Carousel from '../../components/Carousel';
 
 import {Container} from './styles';
 
@@ -25,7 +26,7 @@ const Home: React.FC = () => {
           <Image source={logoImg} />
           <AddressSearchBar />
           <Filter />
-          <Pagination />
+          <Carousel />
           <FoodSearchBar />
           <Shops />
         </Container>
