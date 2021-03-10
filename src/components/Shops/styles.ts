@@ -8,19 +8,22 @@ export const Container = styled.View`
 export const ContentText = styled.View`
   flex-direction: row;
   align-items: center;
+  margin-bottom: 30px;
 `;
 
 export const HeaderText = styled.Text`
-  margin-left: 40px;
+  margin-left: 30px;
   font-size: 18px;
   font-weight: bold;
+  color: #39a900;
 `;
 
 export const Border = styled.View`
   margin-left: 20px;
   background: #b2b2b2;
-  height: 0.8px;
+  height: 1px;
   flex: 1;
+  background: #b2b2b2;
 `;
 
 export const Grid = styled.View`
@@ -28,7 +31,6 @@ export const Grid = styled.View`
 `;
 
 export const ShopGrid = styled.View`
-  margin-top: 26px;
   border: 1px solid #b2b2b2;
   width: 95%;
   align-items: center;

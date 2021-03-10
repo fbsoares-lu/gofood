@@ -12,11 +12,19 @@ import {
   ContainerText,
   ContentTab,
   ContentFirst,
+  ContainerHeadText,
+  ContentText,
+  Border,
 } from './styles';
 
 const FoodSearchBar: React.FC = () => {
   return (
     <Container>
+      <ContentText>
+        <ContainerHeadText>Sugestôes</ContainerHeadText>
+        <Border />
+      </ContentText>
+
       <ContentTab>
         <ContentFirst>
           <Image source={vegFood} />

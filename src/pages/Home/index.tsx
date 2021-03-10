@@ -6,7 +6,6 @@ import logoImg from '../../assets/logo.png';
 import AddressSearchBar from '../../components/AddresSearchBar';
 import Filter from '../../components/Filter';
 import FoodSearchBar from '../../components/FoodSearchBar';
-import Pagination from '../../components/Pagination';
 import Shops from '../../components/Shops';
 import Carousel from '../../components/Carousel';
 

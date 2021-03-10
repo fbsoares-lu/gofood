@@ -11,13 +11,16 @@ interface IItensProps {
 const Pagination: React.FC = () => {
   const paginationData = [
     {
-      image: 'https://i.imgur.com/oWZWTCl.png',
+      image: 'https://i.imgur.com/khxeclR.png',
     },
     {
-      image: 'https://i.imgur.com/oWZWTCl.png',
+      image: 'https://i.imgur.com/T8LLZO8.png',
     },
     {
-      image: 'https://i.imgur.com/oWZWTCl.png',
+      image: 'https://i.imgur.com/khxeclR.png',
+    },
+    {
+      image: 'https://i.imgur.com/a4vkuar.png',
     },
   ];
 
@@ -25,15 +28,15 @@ const Pagination: React.FC = () => {
     return (
       <View
         style={{
-          height: 190,
-          width: 350,
+          height: 180,
+          width: '100%',
           marginTop: 30,
         }}>
         <Image
           style={{
             width: '100%',
             height: '100%',
-            borderRadius: 20,
+            borderRadius: 10,
           }}
           source={{uri: `${item.image}`}}
         />
@@ -46,8 +49,8 @@ const Pagination: React.FC = () => {
       <Carousel
         data={paginationData}
         renderItem={renderImage}
-        sliderWidth={350}
-        itemWidth={350}
+        sliderWidth={370}
+        itemWidth={370}
       />
     </View>
   );

@@ -3,8 +3,27 @@ import styled from 'styled-components/native';
 export const Container = styled.View`
   margin-top: 30px;
   width: 100%;
-  align-items: center;
+`;
+
+export const ContentText = styled.View`
   flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+`;
+
+export const Border = styled.View`
+  margin-left: 20px;
+  background: #b2b2b2;
+  height: 1px;
+  flex: 1;
+  background: #b2b2b2;
+`;
+
+export const ContainerHeadText = styled.Text`
+  margin-left: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #39a900;
 `;
 
 export const ContentTab = styled.ScrollView.attrs({
