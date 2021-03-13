@@ -37,7 +37,7 @@ const Shops: React.FC = () => {
           <Icon
             name="chevron-right"
             size={24}
-            style={{position: 'absolute', right: 20, color: '#535353'}}
+            style={{position: 'absolute', right: 20, color: '#686868'}}
           />
         </ShopGrid>
 
@@ -50,7 +50,7 @@ const Shops: React.FC = () => {
           <Icon
             name="chevron-right"
             size={24}
-            style={{position: 'absolute', right: 20, color: '#535353'}}
+            style={{position: 'absolute', right: 20, color: '#686868'}}
           />
         </ShopGridOthers>
 
@@ -63,7 +63,7 @@ const Shops: React.FC = () => {
           <Icon
             name="chevron-right"
             size={24}
-            style={{position: 'absolute', right: 20, color: '#535353'}}
+            style={{position: 'absolute', right: 20, color: '#686868'}}
           />
         </ShopGridOthers>
 
@@ -76,7 +76,7 @@ const Shops: React.FC = () => {
           <Icon
             name="chevron-right"
             size={24}
-            style={{position: 'absolute', right: 20, color: '#535353'}}
+            style={{position: 'absolute', right: 20, color: '#686868'}}
           />
         </ShopGridOthers>
 
@@ -89,7 +89,7 @@ const Shops: React.FC = () => {
           <Icon
             name="chevron-right"
             size={24}
-            style={{position: 'absolute', right: 20, color: '#535353'}}
+            style={{position: 'absolute', right: 20, color: '#686868'}}
           />
         </ShopGridOthers>
       </Grid>

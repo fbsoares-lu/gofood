@@ -13,9 +13,9 @@ const Pagination: React.FC = () => {
     {
       image: 'https://i.imgur.com/khxeclR.png',
     },
-    {
-      image: 'https://i.imgur.com/T8LLZO8.png',
-    },
+    // {
+    //   image: 'https://i.imgur.com/T8LLZO8.png',
+    // },
     {
       image: 'https://i.imgur.com/khxeclR.png',
     },
@@ -28,9 +28,9 @@ const Pagination: React.FC = () => {
     return (
       <View
         style={{
-          height: 180,
+          height: 190,
           width: '100%',
-          marginTop: 30,
+          marginTop: 20,
         }}>
         <Image
           style={{
@@ -49,8 +49,8 @@ const Pagination: React.FC = () => {
       <Carousel
         data={paginationData}
         renderItem={renderImage}
-        sliderWidth={370}
-        itemWidth={370}
+        sliderWidth={375}
+        itemWidth={375}
       />
     </View>
   );

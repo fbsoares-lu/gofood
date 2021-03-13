@@ -1,14 +1,14 @@
 import styled from 'styled-components/native';
 
 export const Container = styled.View`
-  margin-top: 26px;
+  margin-top: 20px;
   width: 100%;
 `;
 
 export const ContentText = styled.View`
   flex-direction: row;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 `;
 
 export const HeaderText = styled.Text`
