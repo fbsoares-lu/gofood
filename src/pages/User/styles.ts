@@ -34,11 +34,17 @@ export const UserTime = styled.Text`
   color: #686868;
 `;
 
+export const Bar = styled.View`
+  margin-top: 20px;
+  height: 1px;
+  background: #686868;
+`;
+
 export const ToolsContentFirst = styled.View`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 60px;
+  margin-top: 20px;
 `;
 
 export const ToolsContent = styled.View`
@@ -51,7 +57,10 @@ export const ToolsContent = styled.View`
 export const ToolsInfo = styled.View`
   align-items: center;
   flex-direction: row;
-  border: 1px solid #686868;
+
+  border-bottom-width: 1px;
+  border-bottom-color: #686868;
+
   width: 95%;
   height: 67px;
   padding: 20px;

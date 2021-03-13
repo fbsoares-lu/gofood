@@ -1,7 +1,8 @@
 import React from 'react';
-import {Image} from 'react-native';
+import {Image, Text} from 'react-native';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 
-import vegFood from '../../assets/veg.png';
+import vegFood from '../../assets/salad.png';
 import mexFood from '../../assets/mexFood.png';
 import brFood from '../../assets/brazilFood.png';
 import sweets from '../../assets/sweet.png';
@@ -12,43 +13,68 @@ import {
   ContainerText,
   ContentTab,
   ContentFirst,
-  ContainerHeadText,
-  ContentText,
-  Border,
+  ContainerTextInfo,
+  TextInfo,
+  Rating,
 } from './styles';
 
 const FoodSearchBar: React.FC = () => {
   return (
     <Container>
-      <ContentText>
-        <ContainerHeadText>Sugestôes</ContainerHeadText>
-        <Border />
-      </ContentText>
-
       <ContentTab>
         <ContentFirst>
-          <Image source={vegFood} />
-          <ContainerText>Vegetariana</ContainerText>
+          <Image source={vegFood} style={{height: 32, width: 32}} />
+          <TextInfo>
+            <ContainerText>Vegetariana</ContainerText>
+            <Rating>
+              <Icon name="star-rate" color="#fff" />
+              <ContainerTextInfo>4,5</ContainerTextInfo>
+            </Rating>
+          </TextInfo>
         </ContentFirst>
 
         <Content>
-          <Image source={mexFood} />
-          <ContainerText>Tex-Mex</ContainerText>
+          <Image source={vegFood} style={{height: 32, width: 32}} />
+          <TextInfo>
+            <ContainerText>Vegetariana</ContainerText>
+            <Rating>
+              <Icon name="star-rate" color="#fff" />
+              <ContainerTextInfo>4,5</ContainerTextInfo>
+            </Rating>
+          </TextInfo>
         </Content>
 
         <Content>
-          <Image source={brFood} />
-          <ContainerText>Brasileira</ContainerText>
+          <Image source={vegFood} style={{height: 32, width: 32}} />
+          <TextInfo>
+            <ContainerText>Vegetariana</ContainerText>
+            <Rating>
+              <Icon name="star-rate" color="#fff" />
+              <ContainerTextInfo>4,5</ContainerTextInfo>
+            </Rating>
+          </TextInfo>
         </Content>
 
         <Content>
-          <Image source={sweets} />
-          <ContainerText>Doces</ContainerText>
+          <Image source={vegFood} style={{height: 32, width: 32}} />
+          <TextInfo>
+            <ContainerText>Vegetariana</ContainerText>
+            <Rating>
+              <Icon name="star-rate" color="#fff" />
+              <ContainerTextInfo>4,5</ContainerTextInfo>
+            </Rating>
+          </TextInfo>
         </Content>
 
         <Content>
-          <Image source={mexFood} />
-          <ContainerText>Mexicana</ContainerText>
+          <Image source={vegFood} style={{height: 32, width: 32}} />
+          <TextInfo>
+            <ContainerText>Vegetariana</ContainerText>
+            <Rating>
+              <Icon name="star-rate" color="#fff" />
+              <ContainerTextInfo>4,5</ContainerTextInfo>
+            </Rating>
+          </TextInfo>
         </Content>
       </ContentTab>
     </Container>

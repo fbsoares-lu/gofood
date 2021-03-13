@@ -25,8 +25,8 @@ const Home: React.FC = () => {
           <Image source={logoImg} />
           <AddressSearchBar />
           <Filter />
-          <Carousel />
           <FoodSearchBar />
+          <Carousel />
           <Shops />
         </Container>
       </ScrollView>

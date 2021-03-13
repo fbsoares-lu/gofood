@@ -16,6 +16,7 @@ import {
   ToolName,
   ToolInfo,
   ToolsContentFirst,
+  Bar,
 } from './styles';
 
 const Home: React.FC = () => {
@@ -33,6 +34,8 @@ const Home: React.FC = () => {
           <UserTime>Tempo - 2 anos</UserTime>
         </UserContentText>
       </UserContent>
+
+      <Bar />
 
       <ToolsContentFirst>
         <ToolsInfo>
