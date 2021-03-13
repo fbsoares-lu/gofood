@@ -1,11 +1,8 @@
 import React from 'react';
-import {Image, Text} from 'react-native';
+import {Image} from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import vegFood from '../../assets/salad.png';
-import mexFood from '../../assets/mexFood.png';
-import brFood from '../../assets/brazilFood.png';
-import sweets from '../../assets/sweet.png';
 
 import {
   Container,
