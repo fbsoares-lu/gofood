@@ -8,22 +8,22 @@ export const Container = styled.View`
 export const ContentText = styled.View`
   flex-direction: row;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 `;
 
 export const HeaderText = styled.Text`
   margin-left: 30px;
   font-size: 18px;
   font-weight: bold;
-  color: #39a900;
+  color: #434343;
 `;
 
 export const Border = styled.View`
   margin-left: 20px;
-  background: #b2b2b2;
+  background: #686868;
   height: 1px;
   flex: 1;
-  background: #b2b2b2;
+  background: #434343;
 `;
 
 export const Grid = styled.View`
@@ -31,7 +31,7 @@ export const Grid = styled.View`
 `;
 
 export const ShopGrid = styled.View`
-  border: 1px solid #b2b2b2;
+  background: #ffffff;
   width: 95%;
   align-items: center;
   flex-direction: row;
@@ -41,7 +41,7 @@ export const ShopGrid = styled.View`
 
 export const ShopGridOthers = styled.View`
   margin-top: 8px;
-  border: 1px solid #b2b2b2;
+  background: #ffffff;
   width: 95%;
   align-items: center;
   flex-direction: row;

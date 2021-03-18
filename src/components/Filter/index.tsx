@@ -15,22 +15,22 @@ const Filter: React.FC = () => {
     <Container>
       <ContentTab>
         <ContentFirst>
-          <Icon name="add-business" size={20} color="#39A900" />
+          <Icon name="add-business" size={20} color="#686868" />
           <ContainerText>Pra retirar</ContainerText>
         </ContentFirst>
 
         <Content>
-          <Icon name="local-atm" size={20} color="#39A900" />
+          <Icon name="local-atm" size={20} color="#686868" />
           <ContainerText>Utilize desconto</ContainerText>
         </Content>
 
         <Content>
-          <Icon name="credit-card" size={20} color="#39A900" />
+          <Icon name="credit-card" size={20} color="#686868" />
           <ContainerText>Vale refeição</ContainerText>
         </Content>
 
         <Content>
-          <Icon name="directions-run" size={20} color="#39A900" />
+          <Icon name="directions-run" size={20} color="#686868" />
           <ContainerText>Distância</ContainerText>
         </Content>
       </ContentTab>

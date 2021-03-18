@@ -43,9 +43,8 @@ export const Content = styled.TouchableOpacity`
 
 export const TextInfo = styled.View`
   flex-direction: column;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
-  background: #39a900;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 
@@ -56,15 +55,17 @@ export const TextInfo = styled.View`
 
 export const Rating = styled.View`
   flex-direction: row;
+  align-items: center;
 `;
 
 export const ContainerText = styled.Text`
   font-size: 12px;
-  color: #ffffff;
+  font-weight: bold;
+  color: #686868;
 `;
 
 export const ContainerTextInfo = styled.Text`
   margin-left: 5px;
   font-size: 10px;
-  color: #ffffff;
+  color: #686868;
 `;

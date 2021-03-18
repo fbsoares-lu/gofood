@@ -29,7 +29,6 @@ const Pagination: React.FC = () => {
       <View
         style={{
           height: 190,
-          width: '100%',
           marginTop: 20,
         }}>
         <Image
@@ -45,7 +44,12 @@ const Pagination: React.FC = () => {
   }
 
   return (
-    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
+    <View
+      style={{
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}>
       <Carousel
         data={paginationData}
         renderItem={renderImage}

@@ -17,7 +17,6 @@ export const ContentTab = styled.ScrollView.attrs({
 
 export const ContentFirst = styled.TouchableOpacity`
   font-size: 14px;
-  color: #39a900;
   background: #ffffff;
   border-radius: 10px;
 
@@ -31,7 +30,6 @@ export const ContentFirst = styled.TouchableOpacity`
 
 export const Content = styled.TouchableOpacity`
   font-size: 14px;
-  color: #39a900;
   background: #ffffff;
   border-radius: 10px;
 
@@ -49,5 +47,5 @@ export const Content = styled.TouchableOpacity`
 export const ContainerText = styled.Text`
   margin-left: 8px;
   font-size: 14px;
-  color: #39a900;
+  color: #686868;
 `;

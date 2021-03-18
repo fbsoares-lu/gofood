@@ -53,6 +53,32 @@ const Shops: React.FC = () => {
             style={{position: 'absolute', right: 20, color: '#686868'}}
           />
         </ShopGridOthers>
+
+        <ShopGridOthers>
+          <ShopImage source={shop2} />
+          <ContentShopGridText>
+            <ShopName>Habib's</ShopName>
+            <ShopTime>30 - 60 min - R$ 6,90</ShopTime>
+          </ContentShopGridText>
+          <Icon
+            name="chevron-right"
+            size={24}
+            style={{position: 'absolute', right: 20, color: '#686868'}}
+          />
+        </ShopGridOthers>
+
+        <ShopGridOthers>
+          <ShopImage source={shop2} />
+          <ContentShopGridText>
+            <ShopName>Habib's</ShopName>
+            <ShopTime>30 - 60 min - R$ 6,90</ShopTime>
+          </ContentShopGridText>
+          <Icon
+            name="chevron-right"
+            size={24}
+            style={{position: 'absolute', right: 20, color: '#686868'}}
+          />
+        </ShopGridOthers>
       </Grid>
     </Container>
   );

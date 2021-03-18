@@ -58,8 +58,7 @@ export const ToolsInfo = styled.View`
   align-items: center;
   flex-direction: row;
 
-  border-bottom-width: 1px;
-  border-bottom-color: #686868;
+  border: 1px solid #686868;
 
   width: 95%;
   height: 67px;

@@ -2,7 +2,12 @@ import React from 'react';
 import {Image} from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
-import vegFood from '../../assets/salad.png';
+import vegFood from '../../assets/salad1.png';
+import sushiFood from '../../assets/sushi.png';
+import coffee from '../../assets/coffee.png';
+import drink from '../../assets/drink.png';
+import seafood from '../../assets/seafood.png';
+import candy from '../../assets/candy.png';
 
 import {
   Container,
@@ -20,23 +25,23 @@ const FoodSearchBar: React.FC = () => {
     <Container>
       <ContentTab>
         <ContentFirst>
-          <Image source={vegFood} style={{height: 32, width: 32}} />
+          <Image source={coffee} style={{height: 32, width: 32}} />
           <TextInfo>
-            <ContainerText>Vegetariana</ContainerText>
+            <ContainerText>Lanches</ContainerText>
             <Rating>
-              <Icon name="star-rate" color="#fff" />
+              <Icon name="star-rate" color="#FFE722" />
               <ContainerTextInfo>4,5</ContainerTextInfo>
             </Rating>
           </TextInfo>
         </ContentFirst>
 
         <Content>
-          <Image source={vegFood} style={{height: 32, width: 32}} />
+          <Image source={sushiFood} style={{height: 32, width: 32}} />
           <TextInfo>
-            <ContainerText>Vegetariana</ContainerText>
+            <ContainerText>Sushi</ContainerText>
             <Rating>
-              <Icon name="star-rate" color="#fff" />
-              <ContainerTextInfo>4,5</ContainerTextInfo>
+              <Icon name="star-rate" color="#FFE722" />
+              <ContainerTextInfo>4,7</ContainerTextInfo>
             </Rating>
           </TextInfo>
         </Content>
@@ -44,31 +49,42 @@ const FoodSearchBar: React.FC = () => {
         <Content>
           <Image source={vegFood} style={{height: 32, width: 32}} />
           <TextInfo>
-            <ContainerText>Vegetariana</ContainerText>
+            <ContainerText>Saladas</ContainerText>
             <Rating>
-              <Icon name="star-rate" color="#fff" />
+              <Icon name="star-rate" color="#FFE722" />
               <ContainerTextInfo>4,5</ContainerTextInfo>
             </Rating>
           </TextInfo>
         </Content>
 
         <Content>
-          <Image source={vegFood} style={{height: 32, width: 32}} />
+          <Image source={drink} style={{height: 32, width: 32}} />
           <TextInfo>
-            <ContainerText>Vegetariana</ContainerText>
+            <ContainerText>Bebidas</ContainerText>
             <Rating>
-              <Icon name="star-rate" color="#fff" />
+              <Icon name="star-rate" color="#FFE722" />
+              <ContainerTextInfo>4,2</ContainerTextInfo>
+            </Rating>
+          </TextInfo>
+        </Content>
+
+        <Content>
+          <Image source={seafood} style={{height: 32, width: 32}} />
+          <TextInfo>
+            <ContainerText>Frutos do mar</ContainerText>
+            <Rating>
+              <Icon name="star-rate" color="#FFE722" />
               <ContainerTextInfo>4,5</ContainerTextInfo>
             </Rating>
           </TextInfo>
         </Content>
 
         <Content>
-          <Image source={vegFood} style={{height: 32, width: 32}} />
+          <Image source={candy} style={{height: 32, width: 32}} />
           <TextInfo>
-            <ContainerText>Vegetariana</ContainerText>
+            <ContainerText>Doces</ContainerText>
             <Rating>
-              <Icon name="star-rate" color="#fff" />
+              <Icon name="star-rate" color="#FFE722" />
               <ContainerTextInfo>4,5</ContainerTextInfo>
             </Rating>
           </TextInfo>

@@ -16,17 +16,17 @@ const App: React.FC = () => {
     <NavigationContainer>
       <Tab.Navigator
         screenOptions={({route}) => ({
-          tabBarIcon: ({focused, color, size}) => {
+          tabBarIcon: ({focused, color}) => {
             let iconName;
 
             if (route.name === 'Início') {
-              iconName = 'home-filled';
+              iconName = focused ? 'home-filled' : 'home';
             } else if (route.name === 'Buscar') {
               iconName = 'search';
             } else if (route.name === 'Pedido') {
-              iconName = 'list';
+              iconName = focused ? 'playlist-add-check' : 'playlist-add';
             } else if (route.name === 'Conta') {
-              iconName = 'perm-identity';
+              iconName = focused ? 'person' : 'perm-identity';
             }
 
             // You can return any component that you like here!
