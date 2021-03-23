@@ -3,11 +3,11 @@ import {Image, SafeAreaView, ScrollView} from 'react-native';
 
 import logoImg from '../../assets/logo.png';
 
-import AddressSearchBar from '../../components/AddresSearchBar';
 import Filter from '../../components/Filter';
 import FoodSearchBar from '../../components/FoodSearchBar';
 import Shops from '../../components/Shops';
 import Carousel from '../../components/Carousel';
+import Location from '../../components/Location';
 
 import {Container} from './styles';
 
@@ -23,7 +23,7 @@ const Home: React.FC = () => {
       <ScrollView>
         <Container>
           <Image source={logoImg} />
-          <AddressSearchBar />
+          <Location />
           <Filter />
           <FoodSearchBar />
           <Carousel />
