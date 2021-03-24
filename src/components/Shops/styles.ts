@@ -8,7 +8,7 @@ export const Container = styled.View`
 export const ContentText = styled.View`
   flex-direction: row;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 `;
 
 export const HeaderText = styled.Text`
@@ -23,7 +23,7 @@ export const Border = styled.View`
   background: #686868;
   height: 1px;
   flex: 1;
-  background: #434343;
+  background: #cfcfcf;
 `;
 
 export const Grid = styled.View`
