@@ -1,9 +1,5 @@
 import React from 'react';
-import {Image, SafeAreaView, ScrollView} from 'react-native';
-
-import logoImg from '../../assets/logo.png';
-
-import AddressSearchBar from '../../components/AddresSearchBar';
+import {SafeAreaView, ScrollView} from 'react-native';
 
 import {Container} from './styles';
 
@@ -17,10 +13,7 @@ const Home: React.FC = () => {
         backgroundColor: '#F0F0F0',
       }}>
       <ScrollView>
-        <Container>
-          <Image source={logoImg} />
-          <AddressSearchBar />
-        </Container>
+        <Container />
       </ScrollView>
     </SafeAreaView>
   );

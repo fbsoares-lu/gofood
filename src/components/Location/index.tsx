@@ -13,10 +13,10 @@ const Location: React.FC = () => {
     <Container>
       <Content>
         <Icon
-          name="location-on"
+          name="keyboard-arrow-down"
           size={20}
           color="#39A900"
-          style={{marginRight: 6}}
+          style={{marginRight: 4}}
         />
         <BottomBarLocationText>
           <TextLocation>Rua John Doe, 123</TextLocation>

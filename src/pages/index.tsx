@@ -20,7 +20,7 @@ const App: React.FC = () => {
             let iconName;
 
             if (route.name === 'Início') {
-              iconName = focused ? 'home-filled' : 'home';
+              iconName = focused ? 'home' : 'home';
             } else if (route.name === 'Buscar') {
               iconName = 'search';
             } else if (route.name === 'Pedido') {

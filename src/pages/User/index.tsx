@@ -16,30 +16,30 @@ import {
   ToolName,
   ToolInfo,
   ToolsContentFirst,
-  Bar,
+  UserHeader,
 } from './styles';
 
 const Home: React.FC = () => {
   return (
     <Container>
-      <UserContent>
-        <Image
-          source={userImg}
-          style={{width: 70, height: 70}}
-          borderRadius={50}
-        />
-        <UserContentText>
-          <UserName>Lucas Henrique de F. B. Soares</UserName>
-          <Level>Nível 4</Level>
-          <UserTime>Tempo - 2 anos</UserTime>
-        </UserContentText>
-      </UserContent>
-
-      <Bar />
+      <UserHeader>
+        <UserContent>
+          <Image
+            source={userImg}
+            style={{width: 70, height: 70}}
+            borderRadius={50}
+          />
+          <UserContentText>
+            <UserName>Lucas Henrique de F. B. Soares</UserName>
+            <Level>Nível 4</Level>
+            <UserTime>Tempo - 2 anos</UserTime>
+          </UserContentText>
+        </UserContent>
+      </UserHeader>
 
       <ToolsContentFirst>
         <ToolsInfo>
-          <Icon name="home-filled" size={24} />
+          <Icon name="favorite-border" size={24} color="#686868" />
           <UserContentText>
             <ToolName>Favoritos</ToolName>
             <ToolInfo>Melhores pratos e restaurantes</ToolInfo>
@@ -49,40 +49,40 @@ const Home: React.FC = () => {
 
       <ToolsContent>
         <ToolsInfo>
-          <Icon name="home-filled" size={24} />
+          <Icon name="local-atm" size={24} color="#686868" />
           <UserContentText>
-            <ToolName>Favoritos</ToolName>
-            <ToolInfo>Melhores pratos e restaurantes</ToolInfo>
+            <ToolName>Cupons</ToolName>
+            <ToolInfo>Cupons de desconto</ToolInfo>
           </UserContentText>
         </ToolsInfo>
       </ToolsContent>
 
       <ToolsContent>
         <ToolsInfo>
-          <Icon name="home-filled" size={24} />
+          <Icon name="domain" size={24} color="#686868" />
           <UserContentText>
-            <ToolName>Favoritos</ToolName>
-            <ToolInfo>Melhores pratos e restaurantes</ToolInfo>
+            <ToolName>Endereços</ToolName>
+            <ToolInfo>Endereços de entrega</ToolInfo>
           </UserContentText>
         </ToolsInfo>
       </ToolsContent>
 
       <ToolsContent>
         <ToolsInfo>
-          <Icon name="home-filled" size={24} />
+          <Icon name="notifications-none" size={24} color="#686868" />
           <UserContentText>
-            <ToolName>Favoritos</ToolName>
-            <ToolInfo>Melhores pratos e restaurantes</ToolInfo>
+            <ToolName>Notificações</ToolName>
+            <ToolInfo>Central de notificações</ToolInfo>
           </UserContentText>
         </ToolsInfo>
       </ToolsContent>
 
       <ToolsContent>
         <ToolsInfo>
-          <Icon name="home-filled" size={24} />
+          <Icon name="info-outline" size={24} color="#686868" />
           <UserContentText>
-            <ToolName>Favoritos</ToolName>
-            <ToolInfo>Melhores pratos e restaurantes</ToolInfo>
+            <ToolName>Ajuda</ToolName>
+            <ToolInfo>Entre em contato com a central</ToolInfo>
           </UserContentText>
         </ToolsInfo>
       </ToolsContent>

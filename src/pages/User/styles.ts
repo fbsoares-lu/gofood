@@ -3,9 +3,13 @@ import styled from 'styled-components/native';
 export const Container = styled.View`
   flex: 1;
   width: 100%;
+`;
 
-  margin-top: 40px;
-  margin-bottom: 30px;
+export const UserHeader = styled.View`
+  padding: 20px 0px;
+  border-bottom-color: #cfcfcf;
+  border-bottom-width: 2px;
+  background: #f4f4f4;
 `;
 
 export const UserContent = styled.View`
@@ -19,7 +23,7 @@ export const UserContentText = styled.View`
 `;
 
 export const UserName = styled.Text`
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
 `;
 
@@ -34,20 +38,20 @@ export const UserTime = styled.Text`
   color: #686868;
 `;
 
-export const Bar = styled.View`
-  margin-top: 20px;
-  height: 1px;
-  background: #686868;
-`;
+// export const Bar = styled.View`
+//   margin-top: 20px;
+//   height: 1px;
+//   background: #686868;
+// `;
 
-export const ToolsContentFirst = styled.View`
+export const ToolsContentFirst = styled.TouchableOpacity`
   align-items: center;
   justify-content: center;
   flex-direction: column;
   margin-top: 20px;
 `;
 
-export const ToolsContent = styled.View`
+export const ToolsContent = styled.TouchableOpacity`
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -57,9 +61,6 @@ export const ToolsContent = styled.View`
 export const ToolsInfo = styled.View`
   align-items: center;
   flex-direction: row;
-
-  border: 1px solid #686868;
-
   width: 95%;
   height: 67px;
   padding: 20px;
