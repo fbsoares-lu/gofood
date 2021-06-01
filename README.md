@@ -4,7 +4,7 @@
   </br>
 </h1>
 
-A aplicação GoFood abrange serviços de entrega online. Essa aplicaçãp garante que um usuário possa realizar um pedido por vez a um determinado restaurante ou estabelecimento, no qual estabelecimentos podem manter o contato com o cliente solicitante do pedido.
+The GoFood application covers online delivery services. This application ensures that a user can place an order at a time to a particular restaurant or establishment, in which establishments can maintain contact with the customer requesting the order.
 
 <p align="center">
   <a href="http://makeapullrequest.com">
